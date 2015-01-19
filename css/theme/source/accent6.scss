@@ -1,0 +1,49 @@
+/**
+ * White theme for reveal.js. This is the opposite of the 'black' theme.
+ *
+ * Copyright (C) 2015 Hakim El Hattab, http://hakim.se
+ */
+
+
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+
+// Include theme-specific fonts
+@import url("http://fonts.googleapis.com/css?family=Lato:300,900,300italic,900italic");
+
+// Override theme settings (see ../template/settings.scss)
+$backgroundColor: #fff;
+
+$mainColor: #333;
+$headingColor: #333;
+
+$mainFontSize: 38px;
+$mainFontWeight: 300;
+$mainFont: "Lato", sans-serif;
+$headingFont: "Lato", sans-serif;
+$headingTextShadow: none;
+$headingLetterSpacing: normal;
+$headingTextTransform: none;
+$headingFontWeight: 900;
+$linkColor: #F5466D;
+$linkColorHover: lighten( $linkColor, 10% );
+$selectionBackgroundColor: $linkColor;
+
+$heading1Size: 2.5em;
+$heading2Size: 1.6em;
+$heading3Size: 1.3em;
+$heading4Size: 1.0em;
+
+section.has-dark-background {
+	&, h1, h2, h3, h4, h5, h6 {
+		color: #fff;
+	}
+}
+
+
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------

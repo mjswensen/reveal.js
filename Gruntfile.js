@@ -38,6 +38,13 @@ module.exports = function(grunt) {
 			themes: {
 				files: {
 					'css/theme/accent1.css': 'css/theme/source/accent1.scss',
+					'css/theme/accent2.css': 'css/theme/source/accent2.scss',
+					'css/theme/accent3.css': 'css/theme/source/accent3.scss',
+					'css/theme/accent4.css': 'css/theme/source/accent4.scss',
+					'css/theme/accent5.css': 'css/theme/source/accent5.scss',
+					'css/theme/accent6.css': 'css/theme/source/accent6.scss',
+					'css/theme/accent7.css': 'css/theme/source/accent7.scss',
+					'css/theme/accent8.css': 'css/theme/source/accent8.scss',
 					'css/theme/black.css': 'css/theme/source/black.scss',
 					'css/theme/white.css': 'css/theme/source/white.scss',
 					'css/theme/league.css': 'css/theme/source/league.scss',
